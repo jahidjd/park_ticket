@@ -1,0 +1,11 @@
+[17-Nov-2019 02:19:27 Asia/Dhaka] PHP Fatal error:  Call to undefined function date2name() in /home/prantm3v/public_html/trustonline-bd.com/application/modules/Division/views/teacher_report.php on line 53
+[17-Nov-2019 02:19:35 Asia/Dhaka] PHP Fatal error:  Call to undefined function date2name() in /home/prantm3v/public_html/trustonline-bd.com/application/modules/Division/views/teacher_report.php on line 53
+[18-Nov-2019 14:38:24 Asia/Dhaka] PHP Fatal error:  Call to undefined function date2name() in /home/prantm3v/public_html/trustonline-bd.com/attendance/application/modules/Division/views/teacher_report.php on line 53
+[18-Nov-2019 14:38:32 Asia/Dhaka] PHP Fatal error:  Call to undefined function date2name() in /home/prantm3v/public_html/trustonline-bd.com/attendance/application/modules/Division/views/teacher_report.php on line 53
+[18-Nov-2019 14:40:50 Asia/Dhaka] PHP Fatal error:  Call to undefined function date2name() in /home/prantm3v/public_html/trustonline-bd.com/attendance/application/modules/Division/views/teacher_report.php on line 53
+[18-Nov-2019 14:40:53 Asia/Dhaka] PHP Fatal error:  Call to undefined function date2name() in /home/prantm3v/public_html/trustonline-bd.com/attendance/application/modules/Division/views/teacher_report.php on line 53
+[18-Nov-2019 14:43:50 Asia/Dhaka] PHP Fatal error:  Call to undefined function date2name() in /home/prantm3v/public_html/trustonline-bd.com/attendance/application/modules/Division/views/teacher_report.php on line 53
+[18-Nov-2019 14:45:25 Asia/Dhaka] PHP Fatal error:  Call to undefined function date2name() in /home/prantm3v/public_html/trustonline-bd.com/attendance/application/modules/Division/views/teacher_report.php on line 53
+[18-Nov-2019 14:46:42 Asia/Dhaka] PHP Fatal error:  Call to undefined function date2name() in /home/prantm3v/public_html/trustonline-bd.com/attendance/application/modules/Division/views/teacher_report.php on line 53
+[18-Nov-2019 14:47:20 Asia/Dhaka] PHP Fatal error:  Call to undefined function date2name() in /home/prantm3v/public_html/trustonline-bd.com/attendance/application/modules/Division/views/teacher_report.php on line 53
+[18-Nov-2019 14:54:11 Asia/Dhaka] PHP Fatal error:  Call to a member function format() on string in /home/prantm3v/public_html/trustonline-bd.com/attendance/application/modules/Division/views/teacher_report.php on line 51

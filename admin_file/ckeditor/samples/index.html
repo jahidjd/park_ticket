@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+Copyright (c) 2003-2020, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
+-->
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>CKEditor Sample</title>
+	<script src="../ckeditor.js"></script>
+</head>
+<body id="main">
+
+	
+				<div id="editor1">
+					<h1>Hello world!</h1>
+					<p>I'm an instance of <a href="https://ckeditor.com">CKEditor</a>.</p>
+				</div>
+				<textarea name="description" id="editor">ok</textarea>
+
+	
+<script>
+	CKEDITOR.replace( 'editor' );
+var base='<?php echo base_url() ?>'
+	function get_category (id) {
+		$.ajax({
+            type: "POST",
+            url: base+"Admin_panel/get_category",
+            data: {'categoryID': id},
+            dataType: "json",
+            success: function(data){
+              var ht='<select class="form-control" name="sub_catID">'
+                ht+='<option value="">Select Sub Category</option>'
+                $.each(data.batch, function(i, obj) {
+                  ht+='<option value="'+obj+'">'+obj+'</option>'
+                });
+                ht+='</select>'
+            }
+          });
+	}
+</script>
+
+</body>
+</html>
